@@ -285,11 +285,20 @@
 (global-set-key [kp-0] 'avy-goto-word-1)
 
 (global-set-key [kp-decimal] 'avy-goto-char-in-line)
+
 (global-set-key [kp-/] 'consult-yasnippet)
+
 (global-set-key [kp-subtract] 'previous-buffer)
+
+;; Same as f1-f2-f1, so not that important.
 (global-set-key [kp-divide] 'isearch-forward-thing-at-point)
+
+
 (global-set-key [kp-multiply] 'symbol-overlay-put)
+
 (global-set-key [kp-add] 'next-buffer)
+
+;; Already bindings for this, can be used for something else.
 (global-set-key [kp-enter] 'hydra-main/body)
 
 ;; Aliases for bluetooth keyboard, but may be easier than F10.
