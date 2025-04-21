@@ -293,8 +293,7 @@
 ;; Same as f1-f2-f1, so not that important.
 (global-set-key [kp-divide] 'isearch-forward-thing-at-point)
 
-
-(global-set-key [kp-multiply] 'symbol-overlay-put)
+(global-set-key [kp-multiply] 'consult-git-grep)
 
 (global-set-key [kp-add] 'next-buffer)
 
