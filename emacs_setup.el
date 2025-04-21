@@ -271,14 +271,19 @@
 (global-set-key [menu] 'hydra-main/body)
 (global-set-key [kp-7] 'consult-imenu)
 (global-set-key [kp-8] 'next-error)
+(global-set-key [kp-9] 'consult-register-store)
+
 (global-set-key [kp-4] 'execute-extended-command)
 (global-set-key [kp-5] 'consult-buffer)
-(global-set-key [kp-9] 'consult-register-store)
 (global-set-key [kp-6] 'consult-register)
-(global-set-key [kp-0] 'avy-goto-word-1)
+
+
 (global-set-key [kp-1] 'backward-word)
 (global-set-key [kp-2] 'forward-word)
 (global-set-key [kp-3] 'consult-line)
+
+(global-set-key [kp-0] 'avy-goto-word-1)
+
 (global-set-key [kp-decimal] 'avy-goto-char-in-line)
 (global-set-key [kp-/] 'consult-yasnippet)
 (global-set-key [kp-subtract] 'previous-buffer)
