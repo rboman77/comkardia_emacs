@@ -268,6 +268,9 @@
   )
 
 (global-set-key [f10] 'hydra-main/body)
+;; Needed on comkardia.dev under mosh.
+;; Somehow f10 isn't handled.
+(global-set-key [f12] 'hydra-main/body)
 (global-set-key [menu] 'hydra-main/body)
 (global-set-key [kp-7] 'consult-imenu)
 (global-set-key [kp-8] 'next-error)
