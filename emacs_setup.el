@@ -18,8 +18,8 @@
 (global-set-key [f2] 'avy-goto-char-timer)
 
 (global-set-key [f3] 'er/expand-region)
-(global-set-key [f4] 'Control-X-prefix)
-;; This could be moved to the hydra tree.
+;; (global-set-key [f4] 'Control-X-prefix)
+(global-set-key [f4] 'avy-goto-char-in-line)
 (global-set-key [f5] 'duplicate-dwim)
 
 ;; This could also be moved to the hydra tree.
@@ -30,9 +30,7 @@
 (global-set-key [f9] 'symbol-overlay-put)
 ;; F10 is used for the hydra tree.
 
-;; f4-b would normally be switch-to-bufffer, switch to use consult.
-(global-set-key [f4 98] 'consult-buffer)
-
+(global-set-key "b" 'consult-buffer)
 
 ;; (global-set-key [f8] 'mc/mark-more-like-this-extended)
 ;; (global-set-key [f9] 'set-rectangular-region-anchor)
