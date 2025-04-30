@@ -22,7 +22,7 @@
 (global-set-key [f4] 'avy-goto-char-in-line)
 (global-set-key [f5] 'duplicate-dwim)
 
-;; This could also be moved to the hydra tree.
+;; This could be moved to the hydra tree.
 (global-set-key [f6] 'hippie-expand)
 
 (global-set-key [f7] 'backward-kill-word)
@@ -42,12 +42,14 @@
 ;; (global-set-key [menu] 'eglot-format)
 ;; (global-set-key [XF86Search] 'avy-goto-word-1)
 
-(keymap-set isearch-mode-map "<f3>" #'avy-isearch)
-(keymap-set isearch-mode-map "C-p" #'avy-isearch)
-(keymap-set isearch-mode-map "<f4>" #'isearch-occur)
-(keymap-set isearch-mode-map "C-o" #'isearch-occur)
+;;(keymap-set isearch-mode-map "C-p" #'avy-isearch)
+;;(keymap-set isearch-mode-map "C-o" #'isearch-occur)
 (keymap-set isearch-mode-map "<f1>" #'isearch-repeat-forward)
-(keymap-set isearch-mode-map "<f2>" #'isearch-yank-word)
+(keymap-set isearch-mode-map "<f2>" #'isearch-repeat-backward)
+(keymap-set isearch-mode-map "<f3>" #'isearch-yank-word)
+(keymap-set isearch-mode-map "<f4>" #'avy-isearch)
+(keymap-set isearch-mode-map "<f5>" #'isearch-occur)
+(keymap-set isearch-mode-map "<f6>" #'isearch-edit-string)
 
 
 (require 'expand-region)
