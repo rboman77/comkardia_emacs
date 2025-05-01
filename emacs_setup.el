@@ -27,7 +27,7 @@
 
 (global-set-key [f7] 'backward-kill-word)
 (global-set-key [f8] 'avy-goto-word-1)
-(global-set-key [f9] 'symbol-overlay-put)
+(global-set-key [f9] 'ace-window)
 ;; F10 is used for the hydra tree.
 
 (global-set-key "b" 'consult-buffer)
