@@ -192,6 +192,8 @@
   ("k" kill-buffer "kill buffer")
   ("d" dired "dired")
   ("1" delete-other-windows "one window")
+  ("2" split-window-below "split below")
+  ("3" split-window-left "split left")
   ("n" narrow-to-region "narrow")
   ("w" widen "wide")
   )
