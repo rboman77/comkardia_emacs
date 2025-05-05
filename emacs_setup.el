@@ -275,23 +275,40 @@
 (global-set-key [f12] 'hydra-main/body)
 (global-set-key [menu] 'hydra-main/body)
 (global-set-key [kp-7] 'consult-imenu)
+(global-set-key [kp-home] 'consult-imenu)
+
 (global-set-key [kp-8] 'next-error)
+(global-set-key [kp-up] 'next-error)
+
 (global-set-key [kp-9] 'consult-register-store)
+(global-set-key [kp-prior] 'consult-register-store)
 
 (global-set-key [kp-4] 'execute-extended-command)
-(global-set-key [kp-5] 'consult-buffer)
-(global-set-key [kp-6] 'consult-register)
+(global-set-key [kp-left] 'execute-extended-command)
 
+(global-set-key [kp-5] 'consult-buffer)
+(global-set-key [kp-begin] 'consult-buffer)
+
+(global-set-key [kp-6] 'consult-register)
+(global-set-key [kp-right] 'consult-register)
 
 (global-set-key [kp-1] 'backward-word)
+(global-set-key [kp-end] 'backward-word)
+
 (global-set-key [kp-2] 'forward-word)
+(global-set-key [kp-down] 'forward-word)
+
 (global-set-key [kp-3] 'consult-line)
+(global-set-key [kp-next] 'consult-line)
 
 (global-set-key [kp-0] 'avy-goto-word-1)
+(global-set-key [kp-insert] 'avy-goto-word-1)
 
 (global-set-key [kp-decimal] 'avy-goto-char-in-line)
+(global-set-key [kp-delete] 'avy-goto-char-in-line)
 
 (global-set-key [kp-/] 'consult-yasnippet)
+(global-set-key [kp-divide] 'consult-yasnippet)
 
 (global-set-key [kp-subtract] 'previous-buffer)
 
@@ -302,7 +319,7 @@
 
 (global-set-key [kp-add] 'next-buffer)
 
-;; Already bindings for this, can be used for something else.
+;; There are already bindings for this, so its not that important.
 (global-set-key [kp-enter] 'hydra-main/body)
 
 ;; Aliases for bluetooth keyboard, but may be easier than F10.
