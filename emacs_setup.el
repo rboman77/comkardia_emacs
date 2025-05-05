@@ -277,8 +277,8 @@
 (global-set-key [kp-7] 'consult-imenu)
 (global-set-key [kp-home] 'consult-imenu)
 
-(global-set-key [kp-8] 'next-error)
-(global-set-key [kp-up] 'next-error)
+(global-set-key [kp-8] 'backward-kill-word)
+(global-set-key [kp-up] 'backward-kill-word)
 
 (global-set-key [kp-9] 'consult-register-store)
 (global-set-key [kp-prior] 'consult-register-store)
