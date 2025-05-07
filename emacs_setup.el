@@ -256,6 +256,16 @@
   ("e" mc/edit-ends-of-lines "ends")
  )
 
+(defhydra hydra-vc (nil nil :exit t)
+  "vc"
+  ("d" vc-diff "diff")
+  ("n" vc-next-action "next action")
+  ("r" vc-revert "revert")
+  ("e" ediff-revision "ediff")
+  ("p" vc-pull-and-push "pull and push")
+  ("v" vc-dir "vc dir")
+ )
+
 (defhydra hydra-main (global-map "S-SPC" :exit t)
   "main"
   ("a" hydra-avy/body "avy")
@@ -266,6 +276,7 @@
   ("c" hydra-cpp/body "C++")
   ("r" hydra-registers/body "registers")
   ("q" menu-bar-open "menu bar")  
+  ("v" hydra-vc/body "vc")
   ("x" execute-extended-command "alt-x")
   )
 
