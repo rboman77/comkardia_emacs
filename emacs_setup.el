@@ -248,12 +248,14 @@
   ("s" symbol-overlay-put "symbol overlay")
   )
 
+
 (defhydra hydra-mc (nil nil :exit t)
   "mc"
   ("a" mc/mark-more-like-this-extended "mark")
   ("r" set-rectangular-region-anchor "rectangle")
   ("b" mc/edit-beginnings-of-lines "begins")
   ("e" mc/edit-ends-of-lines "ends")
+  ("c" ace-mc-add-multiple-cursors "")
  )
 
 (defhydra hydra-vc (nil nil :exit t)
