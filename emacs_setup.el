@@ -67,7 +67,7 @@
   (setq eshell-highlight-prompt nil
         eshell-prompt-function 'epe-theme-lambda))
 
-(require 'flycheck-eglot)
+; (require 'flycheck-eglot)
 ;; flycheck-eglot may be breaking eglot-code actions.
 ;; (global-flycheck-eglot-mode 1)
 
