@@ -51,7 +51,6 @@
 (keymap-set isearch-mode-map "<f5>" #'isearch-occur)
 (keymap-set isearch-mode-map "<f6>" #'isearch-edit-string)
 
-
 (require 'expand-region)
 ; (global-set-key (kbd "C-=") 'er/expand-region)
 
@@ -255,7 +254,8 @@
   ("r" set-rectangular-region-anchor "rectangle")
   ("b" mc/edit-beginnings-of-lines "begins")
   ("e" mc/edit-ends-of-lines "ends")
-  ("c" ace-mc-add-multiple-cursors "")
+  ("c" ace-mc-add-multiple-cursors "ace multiple")
+  ("d" ace-mc-add-single-cursor "ace single")
  )
 
 (defhydra hydra-vc (nil nil :exit t)
