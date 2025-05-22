@@ -266,7 +266,6 @@
   ("r" vc-revert "revert")
   ("e" ediff-revision "ediff")
   ("p" vc-pull-and-push "pull and push")
-  ("r" vc-revert-buffer "revert")
   ("v" vc-dir "vc dir")
  )
 
