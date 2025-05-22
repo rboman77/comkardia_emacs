@@ -262,6 +262,7 @@
   "vc"
   ("d" vc-diff "diff")
   ("n" vc-next-action "next action")
+  ("l" vc-print-log "log")
   ("r" vc-revert "revert")
   ("e" ediff-revision "ediff")
   ("p" vc-pull-and-push "pull and push")
