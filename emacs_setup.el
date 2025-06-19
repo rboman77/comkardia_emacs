@@ -318,8 +318,8 @@
 (global-set-key [kp-0] 'avy-goto-word-1)
 (global-set-key [kp-insert] 'avy-goto-word-1)
 
-(global-set-key [kp-decimal] 'avy-goto-char-in-line)
-(global-set-key [kp-delete] 'avy-goto-char-in-line)
+(global-set-key [kp-decimal] 'consult-yank-pop)
+(global-set-key [kp-delete] 'consult-yank-pop)
 
 (global-set-key [kp-/] 'consult-yasnippet)
 (global-set-key [kp-divide] 'consult-yasnippet)
