@@ -15,7 +15,7 @@
 (global-unset-key [f2])
 ;; (global-set-key [f1] 'ace-window)
 (global-set-key [f1] 'isearch-forward)
-(global-set-key [f2] 'avy-goto-char-timer)
+(global-set-key [f2] 'avy-goto-symbol-1)
 
 (global-set-key [f3] 'er/expand-region)
 ;; (global-set-key [f4] 'Control-X-prefix)
