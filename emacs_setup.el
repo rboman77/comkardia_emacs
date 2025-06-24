@@ -26,7 +26,7 @@
 (global-set-key [f6] 'hippie-expand)
 
 (global-set-key [f7] 'backward-kill-word)
-(global-set-key [f8] 'avy-goto-word-1)
+(global-set-key [f8] 'avy-goto-line)
 (global-set-key [f9] 'ace-window)
 ;; F10 is used for the hydra tree.
 
@@ -194,7 +194,7 @@
   ("2" split-window-below "split below")
   ("3" split-window-left "split left")
   ("n" narrow-to-region "narrow")
-  ("w" widen "wide")
+  ("w" widen "widen")
   )
 
 (defhydra hydra-registers (nil nil :exit t)
