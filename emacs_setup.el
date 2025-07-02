@@ -56,7 +56,7 @@
 
 (require 'multiple-cursors)
 (require 'company-prescient)
-;; (require 'lsp-mode)
+(require 'lsp-mode)
 
 
 (setq-default indent-tabs-mode nil)
@@ -235,7 +235,7 @@
   ;; ("r" xref-find-references "references")
   ;; ("e" eglot-rename "rename")
   ;; ("d" lsp-ui-peek-find-definitions "peek definitions")
-  ("s" lsp-ui-peek-find-references "peek references")
+  ;; ("s" lsp-ui-peek-find-references "peek references")
   ("f" lsp-format-buffer "format")
   ("h" lsp-format-region "format region")
   ;; ("f" eglot-format-buffer "format")
@@ -244,6 +244,7 @@
   ("d" flycheck-list-errors "diagnostics")
   ("g" consult-git-grep "git grep")
   ("s" symbol-overlay-put "symbol overlay")
+  ("t" consult-lsp-symbols "lsp symbols")
   )
 
 
