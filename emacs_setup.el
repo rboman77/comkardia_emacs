@@ -245,6 +245,7 @@
   ("g" consult-git-grep "git grep")
   ("s" symbol-overlay-put "symbol overlay")
   ("t" consult-lsp-symbols "lsp symbols")
+  ("u" consult-lsp-file-symbols "lsp file symbols")
   )
 
 
