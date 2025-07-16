@@ -1,5 +1,6 @@
 
 
+(require 'pyvenv)
 (require 'highlight-indent-guides)
 (require 'consult)
 
