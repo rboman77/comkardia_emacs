@@ -335,7 +335,7 @@
 
 (global-set-key [kp-add] 'next-buffer)
 
-;; There are already bindings for this, so its not that important.
+;; This one is useful on the big chromebook.
 (global-set-key [kp-enter] 'hydra-main/body)
 
 ;; Aliases for bluetooth keyboard, but may be easier than F10.
