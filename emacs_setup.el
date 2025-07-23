@@ -96,6 +96,7 @@
 (add-hook 'c-mode-common-hook
 	  (lambda()
             (lsp)
+            (lsp-inlay-hints-mode)
             ;(eglot-ensure)
 	    (company-mode)
             (highlight-indent-guides-mode 't)
@@ -226,6 +227,7 @@
 (defhydra hydra-lsp (nil nil :exit t)
   "lsp-eglot"
   ("a" lsp-execute-code-action "code action")
+  ("b" lsp-describe-thing-at-point "describe")
   ("r" lsp-find-references "references")
   ("e" lsp-rename "rename")
   ;; ("d" lsp-ui-peek-find-definitions "peek definitions")
