@@ -79,7 +79,7 @@
             (lsp)
             ; (eglot-ensure)
             ; (local-set-key [134217791] 'lsp-find-references)
-            ; (lsp-ui-peek-mode)
+            (lsp-ui-peek-mode)
             ; (define-key lsp-ui-mode-map [remap xref-find-definitions] #'lsp-ui-peek-find-definitions)
             ; (define-key lsp-ui-mode-map [remap xref-find-references] #'lsp-ui-peek-find-references)
             ; (lsp-ui-doc-mode)
@@ -100,7 +100,7 @@
             ;(eglot-ensure)
 	    (company-mode)
             (highlight-indent-guides-mode 't)
-            ; (lsp-ui-peek-mode)
+            (lsp-ui-peek-mode)
 	    ))
 
 (add-hook 'js-mode-hook
@@ -233,8 +233,9 @@
   ("b" lsp-describe-thing-at-point "describe")
   ("r" lsp-find-references "references")
   ("e" lsp-rename "rename")
+  ("p" lsp-ui-peek-find-definitions "peek definitions")
+  ("q" lsp-ui-peek-find-references "peek references")
   ;; ("d" lsp-ui-peek-find-definitions "peek definitions")
-  ;; ("s" lsp-ui-peek-find-references "peek references")
   ;; ("f" lsp-format-buffer "format")
   ;; ("h" lsp-format-region "format region")
   ;; ("a" eglot-code-actions "code action")
