@@ -187,6 +187,8 @@
 (defhydra hydra-buffers-windows (nil nil :exit t)
   "buffers"
   ("b" consult-buffer "switch buffer")
+  ("<right>" previous-buffer "prev buffer" :exit nil)
+  ("<left>" next-buffer "next buffer" :exit nil)
   ("a" ace-window "ace window")
   ("k" kill-buffer "kill buffer")
   ("d" dired "dired")
@@ -195,6 +197,7 @@
   ("3" split-window-left "split left")
   ("n" narrow-to-region "narrow")
   ("w" widen "widen")
+  ("<return>" nil)
   )
 
 (defhydra hydra-registers (nil nil :exit t)
