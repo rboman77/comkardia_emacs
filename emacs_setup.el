@@ -332,14 +332,14 @@
 (global-set-key [kp-/] 'consult-yasnippet)
 (global-set-key [kp-divide] 'consult-yasnippet)
 
-(global-set-key [kp-subtract] 'previous-buffer)
 
 ;; Same as f1-f2-f1, so not that important.
 (global-set-key [kp-divide] 'isearch-forward-thing-at-point)
 
 (global-set-key [kp-multiply] 'consult-git-grep)
 
-(global-set-key [kp-add] 'next-buffer)
+(global-set-key [kp-add] 'consult-bookmark)
+(global-set-key [kp-subtract] 'bookmark-set)
 
 ;; This one is useful on the big chromebook.
 (global-set-key [kp-enter] 'hydra-main/body)
