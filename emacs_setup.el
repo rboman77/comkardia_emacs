@@ -130,7 +130,7 @@
 (keymap-set vertico-map "<f4>"  #'vertico-quick-exit)
 
 (setenv "COMKARDIA_3D_MODELS" "/home/rboman/comkardia/data/3DModels")
-(setenv "PYTHONPATH" "/home/rboman/comkardia/github:/home/rboman/comkardia/github/angio-segmentation/code")
+(setenv "PYTHONPATH" "/home/rboman/comkardia/github:/home/rboman/comkardia/github:/home/rboman/comkardia/github:/home/rboman/comkardia/github/angio-segmentation/code")
 
 (require 'em-tramp)
 (put 'narrow-to-region 'disabled nil)
